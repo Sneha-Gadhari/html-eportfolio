@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Connect Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Sono", sans-serif;
+        font-size: 45px;
+        background-color: whitesmoke ;
+      }
+
+      h1{
+        text-align: center;
+        color: purple;
+      }
+
+      .con
+      {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        max-width: 400px;
+      }
+
+      .Connect
+      {
+        display: flex;
+
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 1rem;
+      }
+
+      .con-title
+      {
+        font-size: 35px;
+        color: mediumvioletred;
+        font-weight: bolder;
+        font-style: oblique;
+        margin: 0;
+        padding: 0;
+      }
+
+      p{
+        font-size: 25px;
+      }
+      /* Hint: What can you do with a media query and flexbox? */
+      @media (max-width: 1250px) 
+      {
+        .Connect
+        {
+          flex-direction: column;
+          height: 100%;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <h1>Connect Me</h1>
+    <div class="Connect">
+      <div class="con">
+        <div class="con-title">LinkedIn Profile</div>
+        <p>CLick Here!!</p>
+        <div class="edu-img"> 
+            <a href="https://www.linkedin.com/in/snehagadhari2005/" target="_blank"><img src="./Linkedin.png" width="150px" height="150px"></a>
+        </div>
+      </div>
+      <div class="con">
+      <div class="con-title">GMail Id</div>
+        <p>snehag1795@gmail.com</p>
+        <div class="edu-img"> 
+            <a href=""><img src="./gmail.png" width="150px" height="150px"></a>
+        </div>
+      </div>
+</div>
+    </div>
+  </body>
+</html>
